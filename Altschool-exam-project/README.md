@@ -6,6 +6,7 @@
 
 https://github.com/Stargnite/Altschool-Exam-Project-2/tree/main/Altschool-exam-project
 
-[Author][def]
+### Author:
+[Sobayo Tobiloba][def]
 
 [def]: https://github.com/Stargnite
