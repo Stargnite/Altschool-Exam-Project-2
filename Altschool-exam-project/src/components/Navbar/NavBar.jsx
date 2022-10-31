@@ -1,6 +1,5 @@
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
   return (
@@ -21,9 +20,6 @@ const Navbar = () => {
           Counter
         </Link>
       </nav>
-      {/* <div className="nav-icon">
-	  <FontAwesomeIcon icon="fa-solid fa-bars" />
-	  </div> */}
     </div>
   );
 };
