@@ -6,6 +6,8 @@
 
 https://github.com/Stargnite/Altschool-Exam-Project-2/tree/main/Altschool-exam-project
 
+## Link to checkout the react app:
+(https://altschool-exam-project.netlify.app/Counter)
 ### Author:
 [Sobayo Tobiloba][def]
 
