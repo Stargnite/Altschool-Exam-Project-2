@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className="text">
           <p>
-            This is AltSchool third semester exam whereby we were told to pick
+            This is AltSchool's second semester exam whereby we were told to pick
             one project out of four projects in which we have to create a React
             app and follow the descriptions of any of the project we picked.
           </p>
