@@ -2,9 +2,7 @@ import "../../App.css";
 import "./counter.css";
 import useMyCounterReducer from "../../Hooks/useMyCounterReducer/useMyCounterReducer";
 import { useState } from "react";
-
-import Navbar from "../Navbar/NavBar";
-import Navigation from "../Navigation/Navigation";
+import { FaPlus, FaRedo, FaMinus } from "react-icons/fa";
 
 const INITIALS = {
   DECREMENT: "decrement",
@@ -39,7 +37,9 @@ function Counter() {
     <>
       <div className="counter">
         <div className="number-cont">
-          <h1 className="number">{count}</h1>
+          <h1 className="number" onChange={() => {
+            console.log('counting')
+          }}>{count}</h1>
         </div>
 
         <div className="buttons-cont">
@@ -49,7 +49,7 @@ function Counter() {
               dispatch({ type: INITIALS.DECREMENT });
             }}
           >
-            Decrease
+            <FaMinus />
           </button>
 
           <button
@@ -58,7 +58,7 @@ function Counter() {
               dispatch({ type: INITIALS.RESET });
             }}
           >
-            Reset
+            <FaRedo />
           </button>
 
           <button
@@ -67,7 +67,7 @@ function Counter() {
               dispatch({ type: INITIALS.INCREMENT });
             }}
           >
-            Increase
+            <FaPlus />
           </button>
         </div>
 

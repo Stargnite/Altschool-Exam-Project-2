@@ -24,7 +24,7 @@ if (hasError) {
     <div className="">
       <div className="">
         <p>
-          There was an error in loading this page.{' '}
+          There was an error in loading this page😥.{' '}
           <span
             style={{ cursor: 'pointer', color: '#0077FF' }}
             onClick={() => {
