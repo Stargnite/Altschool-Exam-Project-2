@@ -13,8 +13,6 @@ h1 {
   text-align: center;
 }
 
-
-
 button {
   border-radius: 8px;
   color: white;
@@ -28,5 +26,10 @@ button {
 }
 
 button:hover {
-background-color: #4d4f4e;
+  transition: transform 0.7s ease-in-out;
+  background-color: #4d4f4e;
+}
+
+.reset:hover {
+  transform: rotate(360deg);
 }
