@@ -6,7 +6,6 @@ import Navigation from "./components/Navigation/Navigation";
 import ErrorBoundary from "./ErrorBoundary";
 
 function App() {
-
   return (
     <ErrorBoundary>
       <Navbar />
